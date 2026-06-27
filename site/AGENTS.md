@@ -26,3 +26,11 @@ yarn serve   # serve built public/
 yarn sync    # node sync.js — pull docs from analytics packages
 yarn deploy  # netlify deploy
 ```
+
+## Deployments
+
+Builds must happen in node16 then we gotta swap to node 22+ to run the netlify cli to deploy
+
+```
+netlify deploy --no-build --prod
+```
