@@ -26,7 +26,7 @@ npm install @analytics/localstorage-utils
 
 Below is the api for `@analytics/localstorage-utils`. These utilities are tree-shakable.
 
-## `hasLocalStorage`
+### `hasLocalStorage`
 
 Check if localStorage is supported
 
@@ -38,7 +38,7 @@ if (hasLocalStorage()) {
 }
 ```
 
-## `getItem`
+### `getItem`
 
 Get a localStorage value.
 
@@ -48,7 +48,7 @@ import { getItem } from '@analytics/localstorage-utils'
 const value = getItem('cookie-key')
 ```
 
-## `setItem`
+### `setItem`
 
 Set a localStorage value.
 
@@ -58,7 +58,7 @@ import { setItem } from '@analytics/localstorage-utils'
 setItem('item-key', 'a')
 ```
 
-## `removeItem`
+### `removeItem`
 
 Delete a localStorage value.
 
